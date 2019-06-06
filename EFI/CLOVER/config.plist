@@ -315,7 +315,7 @@
 		<key>Arguments</key>
 		<string>-lilubetaall debug=0x100 -disablegfxfirmware darkwake=8</string>
 		<key>CustomLogo</key>
-		<string>Apple</string>
+		<false/>
 		<key>DefaultVolume</key>
 		<string>MacOS</string>
 		<key>Legacy</key>
@@ -329,7 +329,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>0</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -388,6 +388,11 @@
 				</data>
 			</dict>
 		</array>
+		<key>Audio</key>
+		<dict>
+			<key>Inject</key>
+			<integer>1</integer>
+		</dict>
 		<key>FakeID</key>
 		<dict>
 			<key>#Kaby Lake-Comment</key>
@@ -497,6 +502,10 @@
 				</dict>
 			</array>
 		</dict>
+		<key>EmbeddedThemeType</key>
+		<string>Dark</string>
+		<key>Language</key>
+		<string>zh_CN:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
